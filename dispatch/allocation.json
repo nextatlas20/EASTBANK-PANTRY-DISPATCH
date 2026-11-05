@@ -1,0 +1,94 @@
+{
+  "dispatch_date": "2083-01-03",
+  "request_count": 5,
+  "requested_units": 36,
+  "allocated_units": 31,
+  "shortfall_units": 5,
+  "requests": [
+    {
+      "request_id": "RQ-101",
+      "agency": "Harbor House",
+      "item": "Apples",
+      "requested_units": 5,
+      "allocated_units": 5,
+      "shortfall_units": 0,
+      "draws": [
+        {
+          "lot_id": "LOT-P09",
+          "expires_on": "2083-01-03",
+          "units": 5
+        }
+      ]
+    },
+    {
+      "request_id": "RQ-104",
+      "agency": "Northside Hub",
+      "item": "Milk",
+      "requested_units": 6,
+      "allocated_units": 4,
+      "shortfall_units": 2,
+      "draws": [
+        {
+          "lot_id": "LOT-M07",
+          "expires_on": "2083-01-03",
+          "units": 4
+        }
+      ]
+    },
+    {
+      "request_id": "RQ-103",
+      "agency": "Maple Kitchen",
+      "item": "Apples",
+      "requested_units": 7,
+      "allocated_units": 7,
+      "shortfall_units": 0,
+      "draws": [
+        {
+          "lot_id": "LOT-P09",
+          "expires_on": "2083-01-03",
+          "units": 1
+        },
+        {
+          "lot_id": "LOT-P14",
+          "expires_on": "2083-01-05",
+          "units": 6
+        }
+      ]
+    },
+    {
+      "request_id": "RQ-105",
+      "agency": "Orchard Center",
+      "item": "Rice",
+      "requested_units": 6,
+      "allocated_units": 6,
+      "shortfall_units": 0,
+      "draws": [
+        {
+          "lot_id": "LOT-R18",
+          "expires_on": "2083-01-20",
+          "units": 5
+        },
+        {
+          "lot_id": "LOT-R22",
+          "expires_on": "2083-02-01",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "request_id": "RQ-102",
+      "agency": "Juniper Shelter",
+      "item": "Rice",
+      "requested_units": 12,
+      "allocated_units": 9,
+      "shortfall_units": 3,
+      "draws": [
+        {
+          "lot_id": "LOT-R22",
+          "expires_on": "2083-02-01",
+          "units": 9
+        }
+      ]
+    }
+  ]
+}
